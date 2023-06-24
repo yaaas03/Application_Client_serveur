@@ -1,0 +1,67 @@
+.left-pane {
+    -fx-background-image: url('Pics/44ac712ccf8f3b02603f84e2aac6f006.jpg');
+
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.right-pane {
+    /* Autres styles pour la partie droite */
+}
+
+.title-label {
+    -fx-background-color: linear-gradient(to right, #E4FF1A, #FFB800);
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Black", Arial, sans-serif;
+    -fx-font-size: 30px;
+    -fx-padding: 10px;
+}
+.description-text1 {
+    -fx-text-fill: #333333;
+    -fx-font-size: 24px;
+    -fx-wrap-text: true;
+    -fx-font-family: "Verdana", Arial, sans-serif;
+}
+.label {
+    -fx-text-alignment: center;
+}
+.label-login {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 28.0;
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
+}
+
+.label-message {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 16.0;
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
+}
+.login-button {
+    -fx-padding: 5px 20px;
+    -fx-background-color: linear-gradient(to bottom right, #E4FF1A, #FFB800);
+    -fx-background-size: 500%;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 5);
+    -fx-cursor: hand;
+    -fx-margin-top: 10px;
+}
+.sign-button {
+    -fx-padding: 5px 20px;
+    -fx-background-color: linear-gradient(to bottom right, #31D843, #38A700);
+    -fx-background-size: 500%;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 5);
+    -fx-cursor: hand;
+    -fx-margin-top: 10px;
+}
+.login-button:hover {
+    -fx-background-color: linear-gradient( #D7CEB2, #FCF0CC);
+}
+.sign-button:hover {
+    -fx-background-color: linear-gradient( #3EFF8B, #F7F0F0);
+}
+

@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Style de fond pour BorderPane */
+.root {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Style du bouton de connexion */
+#SignOut {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-padding: 5px 10px;
+    -fx-border-color: #E4FF1A;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+#SignOut:hover {
+    -fx-background-color: #E4FF1A;
+    -fx-text-fill: #ffffff;
+}
+
+/* Style des labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #000000;
+    -fx-font-style: italic;
+}
+
+/* Style des text fields */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bfbfbf;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+/* Style du bouton "Send" */
+.button {
+    -fx-font-size: 12px;
+    -fx-padding: 5px 10px;
+    -fx-background-color: #E4FF1A;
+    -fx-text-fill: #000000;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #ffffff;
+}
+
+/* Style de la ListView */
+.list-view {
+    -fx-font-size: 14px;
+    -fx-border-width: 1px;
+}
+
+/* Style des cellules de la ListView */
+.list-cell {
+    -fx-padding: 5px;
+}
+
+/* Style du texte dans la ListView */
+.list-cell .text {
+    -fx-font-weight: bold;
+}
